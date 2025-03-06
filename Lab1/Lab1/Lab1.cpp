@@ -21,7 +21,7 @@ void roundCop(money& price) {
 		price.cop = price.cop + (10 - price.cop % 10);
 	}
 
-	if (price.cop > 100) {
+	if (price.cop >= 100) {
 		price.grn += price.cop / 100;
 		price.cop = price.cop % 100;
 	}

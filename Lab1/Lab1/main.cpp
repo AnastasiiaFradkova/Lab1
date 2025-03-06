@@ -12,7 +12,7 @@ int main()
         return 1;
     }
 
-    char buffer[256];
+    char buffer[8];
     int num1, num2, num3;
     money finalPrice = { 0,0 };
 
